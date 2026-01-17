@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos em hospedagem propria</title>
+</head>
+<body>
+    <h1>Colocando videos em meu site</h1>   
+    <p>Para que todos os formatos de video funcionem nos navegadores dos usuários, é preciso que você aplique alguns sources dentro da tag video, <br> assim podendo ser organizado da seguinte maneira:</p>
+
+    <pre>
+        <code>
+            < video width="500" poster="pasta/capa do video.png" controls > <br>
+                < source src="pasta/video.mp4" type="video/mp4" > <br>
+                < source src="pasta/video.m4v" type="video/mp4" > <br>
+                < source src="pasta/video.webm" type="video/webm" > <br>
+                < source src="pasta/video.ogv" type="video/ogg" > <br>
+            < video>
+        </code>
+    </pre>
+
+    <p>Abaixo, você poderá assistir a um vídeo com hospedagem prórpria em meu próprio site: </p>
+
+    <video width="500" poster="midias/coffee-cups-balance-stack.png" controls>
+        <source src="midias/video-mp4.mp4" type="video/mp4">
+        <source src="midias/video-mkv.mkv" type="video/mp4">
+        <source src="midias/video-ogv.ogv" type="video/ogg">
+        <source src="midias/video-webm.webm" type="video/webm">
+    </video>
+    <p><strong>OBS: A tag video consome muita banda de internet na hospedagem.</strong></p>
+</body>
+</html>

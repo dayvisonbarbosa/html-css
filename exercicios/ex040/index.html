@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bordas decorativas</title>
+    <style>
+        h1 {
+            border: 12px solid black;
+            padding: 7px;
+            border-image: url("bordafuncional.png") 27 repeat;
+            /*
+                O comando border-image é um shorthand que subistiui os seguintes comandos: 
+                
+                border-image-source;
+                border-image-slice
+                border-image-repeat
+
+                Já o comando border, é um shorthand usado para adicionar bordas, essencial para fazer bordas decorativas, ele substitui os comandos:
+
+                border-width (largura da borda)
+                border-style (estilo da borda)
+                border-color (cor da borda)
+            */
+        }
+    </style>
+</head>
+<body>
+    <h1>Título Principal</h1>   
+</body>
+</html>
