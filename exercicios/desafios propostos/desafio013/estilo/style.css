@@ -7,7 +7,7 @@
 
 html, body {
    min-height: 100vh; 
-   background-color: darkgrey;
+   background-color: darkgray;
 }
 
 header {
@@ -45,7 +45,6 @@ section {
 section.normal {
     background-color: white;
     color: black;
-    color: white;
 }
 
 section.imagem {
