@@ -5,7 +5,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 
 * {
-    
+    margin: 0px;   
+    padding: 0px;
 }
 
 root {
@@ -16,6 +17,10 @@ root {
     --cor3: #7F3C28;
     --cor4: ;
     --cor5: ;
+}
+
+html, body {
+    min-height: 100vh;
 }
 
 header {
