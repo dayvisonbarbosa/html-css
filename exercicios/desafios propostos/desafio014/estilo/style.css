@@ -2,20 +2,39 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Carattere&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 
 * {
-    margin: 0px;
-    padding: 0px;
+    
 }
 
 root {
-    --fonte1: "Protest Strike", sans-serif;
-    --fonte2: ;
-    --fonte3: ;
+    --fonte1: Carattere;
+    --fonte2: "Passion One", sans-serif;
+    --cor1: #E0180D ;
+    --cor2: #E1991B;
+    --cor3: #7F3C28;
+    --cor4: ;
+    --cor5: ;
+}
+
+header {
+    background-color: var(--cor3);
+    color: white;
+    text-align: center;
 }
 
 header > h1 {
-    font-family: var(--fonte1);
-    font-size:
+    font-family: var(--fonte2);
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 10vw;
+}
+
+
+
+
+main > p {
+    font-family: var(--fonte2);
+    
 }
