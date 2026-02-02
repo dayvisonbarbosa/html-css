@@ -2,7 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Carattere&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
 
 * {
     margin: 0px;   
@@ -10,14 +10,12 @@
     font-size: 1em;
 }
 
-root {
-    --fonte1: Carattere;
-    --fonte2: "Passion One", sans-serif;
+:root {
+    --fonte1: Carattere, sans-serif;
+    --fonte2: "Protest Strike", sans-serif; ;
     --cor1: #E0180D ;
     --cor2: #E1991B;
     --cor3: #7F3C28;
-    --cor4: ;
-    --cor5: ;
 }
 
 html, body {
@@ -33,14 +31,36 @@ header {
 header > h1 {
     font-family: var(--fonte2);
     padding-top: 50px;
-    font-variant: small-caps;
-    font-size: 10vw;
+    font-size: 5vw;
 }
 
+header > p {
+    padding-bottom: 50px;
+}
 
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
 
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
 
-main > p {
-    font-family: var(--fonte2);
-    
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    margin-bottom: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+}
+
+section {
+    text-align: center;
+    color: var(--cor2);
 }
