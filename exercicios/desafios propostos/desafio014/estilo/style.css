@@ -15,6 +15,7 @@ root {
     --fonte3: ;
 }
 
-h1 {
+header > h1 {
     font-family: var(--fonte1);
+    font-size:
 }
