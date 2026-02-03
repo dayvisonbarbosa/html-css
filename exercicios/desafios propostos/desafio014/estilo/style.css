@@ -49,6 +49,8 @@ header a:hover, footer a:hover {
 }
 
 main {
+    border-image-source: url("../imagens/137513827_10322400.png");
+    
     min-width: 300px;
     max-width: 1000px;
     padding: 20px;
