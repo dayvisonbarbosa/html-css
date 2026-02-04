@@ -16,14 +16,17 @@
     --cor1: #E0180D ;
     --cor2: #E1991B;
     --cor3: #7F3C28;
+    --cor4: #ebe5c5;
 }
 
 html, body {
     min-height: 100vh;
+    background-color: var(--cor4);
 }
 
 header {
     background-color: var(--cor3);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
     color: white;
     text-align: center;
 }
@@ -88,7 +91,7 @@ section#img01 {
 }
 
 section#img02 {
-    background-image: url("../imagens/images.jpg");
+    background-image: url("../imagens/15_de_Septiembre..._Desfile_de_Bandas_Escolares_-_panoramio_\(4\).jpg");
     background-position: top center;
 }
 
@@ -99,4 +102,11 @@ section.imagem > p {
     margin: 20px;
     padding: 30px;
     background-color: rgba(0, 0, 0, 0.253);
+}
+
+footer {
+    background-color: var(--cor3);
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
