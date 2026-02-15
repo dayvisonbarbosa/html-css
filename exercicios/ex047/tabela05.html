@@ -4,30 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela04</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+
+        caption {
+            text-align: center;
+            font-size: 1.5em;
+            font-weight: bolder;
+        }
+
+        .destaque {
+            background-color: darkgray;
+        }
+
+    </style>
 </head>
 <body>
     <table>
+        <colgroup>
+            <col>
+            <col>
+            <col class="destaque">
+        </colgroup>
         <caption>
             Cadastro
         </caption>
         <tr>
             <th>Nome</th>
+            <th>Idade</th>
             <th>Profissão</th>
         </tr>
 
         <tr>
             <td>Dayvison</td>
             <td>19</td>
+            <td>Programador</td>
         </tr>
 
         <tr>
             <td>Luís</td>
             <td>18</td>
+            <td>Bombeiro</td>
         </tr>
 
         <tr>
             <td>Laura</td>
             <td>19</td>
+            <td>Petroleira</td>
         </tr>
     </table>   
 </body>
