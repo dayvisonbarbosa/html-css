@@ -9,8 +9,28 @@
     <h1>Formulários com data, hora, dia e números</h1>
     <form action="arquivo.php" autocomplete="on" method="get">
         <p>
-            <label for="imedia">Média</label>
-            <input type="number" name="media" id="imedia" min="0" max="10" step="0.1" placeholder="De 0 a 10">
+            <label for="imedia">Média:</label>
+            <input type="number" name="media" id="imedia" min="0" max="10" step="0.1" placeholder="De 0 a 10" required>
+        </p>
+
+        <p>
+            <label for="iper">Período letivo:</label>
+            <input type="month" name="per" id="iper" value="2026-03">
+        </p>
+
+        <p>
+            <label for="idata">Hoje é:</label>
+            <input type="date" name="data" id="idata" value="2026-03-02">
+        </p>
+
+        <p>
+            <label for="ihora">Horário:</label>
+            <input type="time" name="hora" id="ihora" value="18:30">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
         </p>
     </form>  
 </body>
