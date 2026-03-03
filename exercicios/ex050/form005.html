@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulários com Checkbox e Radio</h1>   
+    <form action="arquivo.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexualidade</legend>
+
+            <input type="radio" name="sexo" id="imas" value="M"> <label for="imas">Masculino</label> <br>
+
+            <input type="radio" name="sexo" id="ifem" value="F"> <label for="ifem">Feminino</label> <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Animes favoritos</legend>
+
+            <input type="checkbox" name="db" id="idb"> <label for="idb">Dragon Ball</label> <br>
+
+            <input type="checkbox" name="nt" id="int"> <label for="int">Naruto</label> <br>
+
+            <input type="checkbox" name="bl" id="ibl"> <label for="ibl">Bleach</label> <br>
+
+            <input type="checkbox" name="hxh" id="ihxh"> <label for="ihxh">Hunter X Hunter</label> <br>
+
+            <input type="checkbox" name="re" id="ire"> <label for="ire">Re:Zero</label> <br>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
