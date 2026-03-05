@@ -7,19 +7,40 @@
 </head>
 <body>
     <h1>Teste</h1>    
-    <form action="arquivo.php">
+    <form action="arquivo.php" method="get" autocomplete="on">
         <p>
             <label for="iestado">Estado</label>
-            <select name="estados" id="iestado">
+            <select name="estados" id="iestado" required>
 
-                <option selected>--Selecione--</option>
-                
+                <option>--Selecione--</option>
+
                 <optgroup label="Estados">
                     <option>Rio de Janeiro</option>
                     <option>São Paulo</option>
                     <option>Minas Gerais</option>
                 </optgroup>
+
+                <optgroup label="Países">
+                    <option>Brasil</option>
+                    <option>China</option>
+                    <option>Rússia</option>
+                </optgroup>
             </select>   
+        </p>
+
+        <p>
+            <label for="ianime">Animes</label>
+            <input type="text" name="anime" id="ianime" list="lstanime">
+            <datalist id="lstanime">
+                <option>Dragon Ball</option>
+                <option>Naruto</option>
+                <option>One Piece</option>
+            </datalist>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
         </p>
     </form>
 </body>
