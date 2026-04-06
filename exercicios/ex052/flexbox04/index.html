@@ -7,22 +7,38 @@
     <style>
         * {
             font-family: Arial, Helvetica, sans-serif;
-            height: 0px;
-            width: 0px;
         }
 
         header > h1 {
+            text-align: center;    
+        }
+
+        section#conteiner {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-evenly;
+            background-color: antiquewhite;
+            height: 500px;
+            align-items: center;
+        }
+
+        p.item {
+            border: 1px solid black;
+            font-size: 1.5em;
+            margin: 10px;
+            width: 100px;
             text-align: center;
+            padding: 20px;
         }
     </style>
 </head>
 <body>
     <header>
         <h1>Teste de Centralização</h1>
-        <section class="conteiner">
+        <section id="conteiner">
            <p class="item">HTML5 e CSS3</p>
            <p class="item">JavaScript e C#</p>
-           <p class="item">Java e php</p>
+           <p class="item">Java e <br> php</p>
         </section>
     </header>   
 </body>
