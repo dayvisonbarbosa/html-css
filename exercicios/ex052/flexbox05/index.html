@@ -13,27 +13,77 @@
             background-color: antiquewhite;
         }
 
-        main {
+        main#conteiner {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;      
             background-color: white;
-            width: 50vw;
+            width: 80vw;
+            height: 50vh;
             margin: auto;
+            margin-top: 130px;
+            border-radius: 5px;
+            
         }
+
+        header > h1 {
+            text-align: center;
+            background-color: rgb(201, 51, 51);
+            margin: 0px; 
+        }
+
+        div > p {
+            text-align: center;
+            margin: auto;
+            margin-top: 100px;
+            font-size: 1.4em;
+            font-weight: bolder;
+            border: 2px solid black;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        section#item {
+            border: 1px solid black;
+            border-radius: 5px;
+            margin: 30px;
+            background-color: aqua;
+        }
+
+        form {
+            padding: 50px;
+        }
+
+        div.label {
+            margin-bottom: 10px;    
+        }
+
+        label {
+           
+        } 
     </style>
 </head>
 <body>
     <header>
         <h1>Formulário de Login</h1>
     </header>
-    <main>
-        <p>Seja bem vindo(a) novamente! <br> Por favor, faça login para continuar.</p>
-        <section>
-            <form action="login.php">
-                <label for="iemail">E-mail</label>
-                <input type="email" name="email" id="iemail">
-
-                <label for="isenha">Senha</label>
-                <input type="password" name="senha" id="isenha">
-
+    <div>
+        <p>Seja Bem-vindo(a) Novamente!</p>
+    </div>
+    <main id="conteiner">
+        <section id="item">
+            <form action="login.php" id="item">
+                <div class="label">
+                    <label for="iemail">E-mail</label>
+                    <input type="email" name="email" id="iemail">
+                </div>
+                
+                <div class="label">
+                    <label for="isenha">Senha</label>
+                    <input type="password" name="senha" id="isenha">
+                </div>
+                
                 <input type="submit" value="Enviar">
                 <a href="esqueci.html"></a>
             </form>
