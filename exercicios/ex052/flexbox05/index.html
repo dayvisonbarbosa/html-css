@@ -4,6 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario Centralizado</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: antiquewhite;
+        }
+
+        main {
+            background-color: white;
+            width: 50vw;
+            margin: auto;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -13,14 +28,14 @@
         <p>Seja bem vindo(a) novamente! <br> Por favor, faça login para continuar.</p>
         <section>
             <form action="login.php">
-                <label for=""></label>
-                <input type="email" name="" id="">
+                <label for="iemail">E-mail</label>
+                <input type="email" name="email" id="iemail">
 
-                <label for=""></label>
-                <input type="password" name="" id="">
+                <label for="isenha">Senha</label>
+                <input type="password" name="senha" id="isenha">
 
-                <input type="submit" value="">
-                <input type="reset" value="">
+                <input type="submit" value="Enviar">
+                <a href="esqueci.html"></a>
             </form>
         </section>
     </main>   
