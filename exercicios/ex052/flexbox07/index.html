@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.conteiner {
+            display: flex;
+            background-color: antiquewhite;
+            height: 400px;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        div.item {
+            background-color: rgb(17, 250, 250);
+            border: 1px solid black;
+            text-align: center;
+            padding: 15px;
+        }
+
+        div#A {
+            order: 0;
+            align-self: flex-end;
+        }
+
+        div#B {
+            order: -2;
+            align-self: center;
+        }
+
+        div#C {
+            order: 4;
+            align-self: stretch;
+        }
+
+        div#D {
+            order: 8;
+            align-self: center;
+        }
+
+        div#E {
+            order: 2;
+            align-self: auto;
+        }
+
+        div#F {
+            order: 0;
+            align-self: flex-end;
+        }
+
+        div#G {
+            order: -4;
+            align-self: stretch;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner"> 
+        <div class="item" id="A">A</div>
+        <div class="item" id="B">B</div>
+        <div class="item" id="C">C</div>
+        <div class="item" id="D">D</div>
+        <div class="item" id="E">E</div>
+        <div class="item" id="F">F</div>
+        <div class="item" id="G">G</div>
+    </div>   
+</body>
+</html>
