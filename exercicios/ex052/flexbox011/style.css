@@ -17,6 +17,10 @@ p, h1, h2 {
     text-align: justify;
 }
 
+h2 {
+    margin-top: 10px;
+}
+
 header, section.normal {
     padding: 20px;
 }
