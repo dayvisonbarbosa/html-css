@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.container {
+            display: grid;
+            border: 3px solid blue;
+            height: 300px;
+            padding: 10px;
+            grid-template: 100px 100px 100px / auto auto auto;
+            place-items: stretch center;
+            place-content: space-evelyn center;
+        }
+        
+        div.item {
+            width: 50px;
+            height: 50px;
+            border: 3px solid red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+    </div>   
+</body>
+</html>
